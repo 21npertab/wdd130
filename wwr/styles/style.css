@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Skranji&display=swap');
+/*   --heading-font: "Indie flower";
+  --paragraph-font: Lato, "Skranji"; */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -29,17 +33,22 @@ section{
 }
 body {
     background-color: #fcfbfb; 
+    font-family: "Indie flower"
+    font-size: 22px
+    margin: 0;
+    padding; 0;
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(64, 43, 43, 0.7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(76, 225, 195);
 }
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 .icon {
     width: 80px;
@@ -48,34 +57,38 @@ footer p a:hover {
     text-decoration: underline;
 }    
 body {
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(117, 155, 251, 0.7)
 }
 header {
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 nav a:hover {
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 .book{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 .join{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 .book:hover{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 .join:hover{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 #background{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7)
 }
 .msg{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
-    background-color:rgba(20,30,13, .7)
+    background-color:rgba(93, 149, 52, 0.7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -83,3 +96,41 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.logo{
+    width:80px
+}
+.home-title {
+    font-family: "Indie flower";
+    font-size: 2em;
+    margin-top: 10px;
+}
+.book, .join{
+    font-family: "Indie flower";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.msg p{
+    font-family: "Indie flower";
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgba(93, 149, 52, 0.7)
+}
+main section img {
+    box-sizing: border-box;
+}
