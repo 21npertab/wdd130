@@ -47,6 +47,7 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
+    font-family: "Skranji";
 }
 .icon {
     width: 80px;
@@ -90,6 +91,7 @@ footer{
 }
 footer p {
     font-size: 1.2em;
+    color: rgb(74, 49, 17);
 }    
 footer p a:hover {
     text-decoration: underline;
@@ -131,4 +133,22 @@ footer .social img{
 }
 main section img {
     box-sizing: border-box;
+}
+a{
+    color: rgb(74, 49, 17);
+    font-family: "Skranji";
+    text-decoration:none
+}
+h2{
+    color: rgb(74, 49, 17);
+    font-family: "Skranji";
+}
+p{
+    color: rgb(74, 49, 17)
+}
+h1{
+    color:white
+}
+h4{
+    color: white
 }
