@@ -31,10 +31,10 @@ section{
 }
 body {
     background-color: #fcfbfb; 
-    font-family: "Indie flower"
-    font-size: 22px
+    font-family: "Indie flower";
+    font-size: 22px;
     margin: 0;
-    padding; 0;
+    padding: 0;
 }
 header {
     background-color:rgba(64, 43, 43, 0.7);
