@@ -56,3 +56,89 @@ footer a{
     text-align: center;
     color: #fcfbfb;
 }
+#top{
+    display: grid;
+    justify-content: center;
+    margin-top: 75px;
+}
+.table-img{
+    justify-self: center;
+    min-width: 1400px;
+    padding: 50px;
+    background-color: #1E96FC;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #001146;
+}
+#background1{
+    background-color: #FAEE6B ;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 10px;
+font-family: "Nunito";
+max-width: 1300px;
+justify-self: center;
+}
+#background1 p{
+font-size: 1.25em;
+
+}
+.background2{
+    background-color: #FAEE6B ;
+    grid-column-start: 2;
+    border-radius: 15px;
+    margin:25px;
+    font-size: 1.25em;
+}
+.background3{
+    background-color: #FAEE6B ;
+    grid-column-start: 2;
+    border-radius: 15px;
+    margin:25px;
+    font-size: 1.25em;
+}
+.background4{
+    background-color: #FAEE6B ;
+    grid-column-start: 2;
+    border-radius: 15px;
+    margin:25px;
+    font-size: 1.25em;
+
+}
+.background{
+    background-color: #FAEE6B ;
+    grid-column-start: 2;
+    border-radius: 15px;
+margin:25px;
+font-size: 1.25em;
+}
+.background5{
+    background-color: #FAEE6B ;
+    grid-column-start: 2;
+    border-radius: 15px;
+margin:25px;
+}
+.burn-img{
+    min-width: 500px;
+    padding: 50px;
+    background-color: #1E96FC;
+    box-shadow: 5px 5px 10px #001146;
+    border-radius: 30px;
+
+    margin-top: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1px 1fr 1fr 1fr ;
+    justify-content: center;
+    text-align: center;
+    font-family: "Nunito";
+margin-bottom: -100px;
+    margin-top: 75px
+}
+.container p{
+    margin:20px
+}
