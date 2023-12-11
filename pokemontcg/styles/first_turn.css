@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Nunito&display=swap');
+body{
+    background-color:#e75656  ;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    min-height: 150px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#1E96FC;
+    align-content: center;
+    padding-top: 10px;
+    border-radius: 20px;
+
+}
+nav a:hover {
+    background-color: #E62828;
+    border-radius: 10px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 40px;
+    font-family: "Barlow Semi Condensed";
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.icon {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+    color: white;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}  
+footer {
+    background-color: #1E96FC;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Barlow Semi Condensed";
+    border-radius: 10px;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: #fcfbfb;
+}

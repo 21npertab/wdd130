@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Home page</title>
+    <link type="text/css" rel="stylesheet" href="styles/indexs.css">
 </head>
 <body>
     <div id="content">
@@ -19,44 +20,45 @@
              </nav>
          </header>   
     <div id="hero">
+             <h1 class="home-title">The Pokemon TCG</h1>
                 <img id="hero-img" src="images/battle.jpg" alt="pokemon having a pokemon battle">
-             </div>
-             <section id="hero-msg">
-                <h1 class="home-title">The Pokemon TCG</h1>
+            
+             <div id="hero-msg">
+                
                 <div class="button-box">
-                    <a class="book" href="first_turn.html">Learn to Play</a>
+                    <a class="main-link" href="first_turn.html">Learn to Play</a>
                 </div>
-            </section>
+             </div>
              <div id="sub-hero">
                     <img id="hand-img" src="images/cardhand.jpg" alt="pokemon cards being fanned out">
-                 </div>
-                    <div class="button-box">
-                        <a class="book" href="first_turn.html">First Turn</a>
-                    </div>
-                    <section>
-                            <img id="basic-img" src="images/pokemon_basics.png" alt="grass type pokemon energy">
-                        <div class="button-box">
-                            <a class="book" href="card_basics.html">Card Basics</a>
+             
+                        <div class="sub-button1">
+                            <a class="first-button" href="first_turn.html">First Turn</a>
                         </div>
-                    </section>
+                            <img id="basic-img" src="images/pokemon_basics.png" alt="grass type pokemon energy">
+                        <div class="sub-button2">
+                            <a class="card-button" href="card_basics.html">Card Basics</a>
+                        </div>
+             </div>
     </div>
         <main>
-            <section>
-                <div id="background2">
-                    <img class="pokeball-img" src="images/background_pokeball.png" alt="silloet of a pokeball">
-                </div>
-                    <img class="cardback-img" src="images/back_cards.png" alt="back of a pile of pokemon cards">
-                    <section class="msg">
+                <div class="container">
+                    <div class="pokeball">
+                        <img id="pokeball-img" src="images/background_pokeball.png" alt="silloet of a pokeball">
+                    </div>
+                    <div class="back">
+                        <img id="cardback-img" src="images/back_cards.png" alt="back of a pile of pokemon cards">
+                    </div>
+                    <div class="background2">
                         <h2>The Beautiful Game</h2>
                         <p>Learn to play and enjoy all that the Pokemon trading card game has to offer. this site is designed to show you how so start you jorney into the game that has taken the world by storm over the past 20 years. The pokemon trading card game is simple and can be learned withing just the first game and is technical enough to be mastered in learn the basics of the cards and battle your friends.</p>
-                        <a class='join' href="first_turn.html">Play Now</a>
-                    </section>
-                </section>
+                    </div>
+                    
+                </div>
         </main>
         <footer>
             <p>LTPPokemon &copy; 2023 - Noah Pertab</p>
             <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                 <a href="https://facebook.com">
                     <img src="images/facebook.png" alt="fb icon">
@@ -66,5 +68,6 @@
                 </a>
             </div>
         </footer>
+    </div>
 </body>
 </html>
