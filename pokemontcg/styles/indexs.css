@@ -75,7 +75,7 @@ margin: 50px;
     grid-row-start: 2;
     min-width: 1000px;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #020651;
 }
 .button-box{
     text-align: center;
@@ -109,7 +109,7 @@ margin: 50px;
     padding: 25px;
     background-color: #1FC982;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #000057;
 }
 
 #sub-hero{
